@@ -17,7 +17,6 @@ public class AlbumMemLocalDataSource {
 
     public void save(Album album) {
         storage.add(album);
-        System.out.println(album);
     }
 
     public void delete(String id) {
