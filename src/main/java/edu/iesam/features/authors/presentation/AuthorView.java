@@ -30,6 +30,7 @@ public class AuthorView {
     public static void deleteAuthor() {
         DeleteAuthorsUseCase deleteAuthorsUseCase = new DeleteAuthorsUseCase(new AuthorDataRepository(new AuthorMemLocalDataSource()));
         deleteAuthorsUseCase.execute("1");
+
     }
 
 }
